@@ -1,0 +1,26 @@
+.navbar {
+	right: 0;
+	left: 0;
+	z-index: 100;
+	position: fixed;
+	margin-bottom:0;
+	background-color: transparent;
+   	background: transparent;
+   	border-color: transparent;
+}
+
+.navbar-brand {
+	max-height:100px;
+	height:auto;
+	padding: 0 15px;
+}
+
+#navbar {
+	position: relative;
+}
+
+.navbar-right {
+	position: absolute;
+    top: 25%;
+    right: 2%;
+}

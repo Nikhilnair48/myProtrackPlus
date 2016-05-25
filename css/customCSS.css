@@ -1,0 +1,133 @@
+body {
+
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.carousel-indicators li {
+	background-color: #AAAADD;
+}
+
+.carousel-indicators active {
+	background-color: #FFFFFF;
+}
+
+#services {
+	padding: 35px 0;
+}
+
+.section-title {
+	font-size: 3em;
+    letter-spacing: 2px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    position: relative;
+	text-align: center;
+}
+
+.section-title {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.dropdown:hover {
+	background-color: transparent;
+}
+
+#services {
+	margin: 0 10%;
+}
+
+#services .portfolio-item .portfolio-link .caption {
+    background: rgba(24, 188, 156, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#services .portfolio-item .portfolio-link .caption:hover {
+	opacity: 1;
+	animation-name: opacityToOne;
+    animation-duration: 1s;
+}
+
+@keyframes opacityToOne {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes opacityToZero {
+	from { opacity: 1; }
+	to { opacity: 0; }
+}
+
+#services .portfolio-item .portfolio-link {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+#services .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: white;
+}
+
+#services .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+.fa-3x {
+	font-size: 3em;
+}
+
+#services * {
+	z-index: 2;
+}
+
+#services .portfolio-item {
+	margin: 15px 0;
+	right: 0;
+}
+
+footer .container .row {
+	height: 50px;
+}
+
+footer .container .row div p {
+	color: black;
+	vertical-align: middle;
+	position: relative;
+	top: 25%;
+}
+
+footer .container .row div .social-network-center {
+	vertical-align: middle;
+	position: relative;
+	top: 8%;
+}
+
+.inherit-height {
+	height: inherit;
+}
+
+.footer-center {
+	height: inherit;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.button-to-top {
+
+}

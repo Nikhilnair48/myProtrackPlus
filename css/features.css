@@ -1,0 +1,13 @@
+.section-heading {
+	font-size: 2.5em;
+	color: #386BB7;
+	font-family: "Open Sans Light";
+}
+
+.row > .col-lg-12 > .description,
+.row > ul > li {
+	font-size: 1em;
+	font-family: "Open Sans Regular";
+	padding: 0 2%;
+}
+

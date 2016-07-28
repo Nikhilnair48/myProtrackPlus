@@ -1,58 +1,17 @@
-body {
-
-}
-
-a {
-	color: black;
-	text-decoration: none;
-}
-
-.carousel-indicators li {
-	background-color: #AAAADD;
-}
-
-.carousel-indicators active {
-	background-color: #FFFFFF;
-}
-
-#services {
-	padding: 35px 0;
-}
-
-.section-title {
-	font-size: 3em;
-    letter-spacing: 2px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: black;
-    position: relative;
-	text-align: center;
-}
-
-.section-title {
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-.dropdown:hover {
-	background-color: transparent;
-}
-
-.carousel-inner>.item>a>img, /*.carousel-inner>.item>img, */
-/*.img-responsive,*/ .thumbnail a>img, .thumbnail>img  {
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, 
+.img-responsive, .thumbnail a>img, .thumbnail>img  {
 	height: 100%;
 	width: 90%;
 }
 
 #services {
-	padding: 0 4%;
+	margin: 0 10%;
 }
 
 #services .portfolio-item .portfolio-link .caption {
     background: rgba(24, 188, 156, 0.9);
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 100%;
     opacity: 0;
 }
@@ -100,13 +59,36 @@ a {
 }
 
 #services .portfolio-item {
-	padding: 15px 1%;
+	padding: 15px 0;
 	right: 0;
 	height: inherit;
 }
 
+footer .container .row {
+	height: 50px;
+}
+
+footer .container .row div p {
+	color: black;
+	vertical-align: middle;
+	position: relative;
+	top: 25%;
+}
+
+footer .container .row div .social-network-center {
+	vertical-align: middle;
+	position: relative;
+	top: 8%;
+}
+
 .inherit-height {
 	height: inherit;
+}
+
+.footer-center {
+	height: inherit;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 .button-to-top {
@@ -117,20 +99,6 @@ a {
 .arrow-right {
 	color: black;
 	position: absolute;
+	/*right: -20%;*/
 	left: 0;
-}
-
-.portfolio-link {
-	text-decoration: none;
-}
-
-.portfolio-link:hover {
-	text-decoration: none;
-	color: black;
-}
-
-#scrollToTop {
-	position: fixed;
-	right: 2%;
-	bottom: 2%;
 }
